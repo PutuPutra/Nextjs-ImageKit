@@ -76,13 +76,13 @@ export default function Navbar() {
                 Categories
               </Link>
               <Link
-                href="/brands"
+                href="/admin/products"
                 prefetch={false}
                 className={`text-gray-500 dark:text-gray-500 hover:text-black dark:hover:text-white ${getActiveClasses(
-                  "/brands"
+                  "/admin/products"
                 )}`}
               >
-                Brands
+                Dashboard
               </Link>
             </nav>
           </div>
