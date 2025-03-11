@@ -93,7 +93,7 @@ Proyek ini adalah aplikasi web yang dibangun dengan Next.js dan TypeScript. Proy
 ├── /public             # Aset publik seperti gambar, favicon, dll.
 ├── /styles             # File CSS atau SCSS
 ├── /utils              # Fungsi helper dan utilitas
-├── .env.local          # File variabel lingkungan (tidak disertakan di VCS)
+├── .env                # File variabel lingkungan (tidak disertakan di VCS)
 ├── package.json        # Konfigurasi dependensi dan skrip
 └── README.md           # Dokumentasi proyek
 ```
