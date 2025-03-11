@@ -110,7 +110,7 @@ Informasi lebih lanjut dapat ditemukan di [dokumentasi ImageKit.io](https://docs
 
 ## Koneksi ke MongoDB
 
-Pastikan variabel `MONGODB_URI` di file `.env.local` telah diset dengan benar. Contoh connection string:
+Pastikan variabel `MONGODB_URI` di file `.env` telah diset dengan benar. Contoh connection string:
 
 ```env
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/nama_database?retryWrites=true&w=majority
@@ -136,29 +136,3 @@ Kontribusi sangat diterima! Jika Anda ingin berkontribusi:
 ## Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
-## Kontak
-
-Untuk pertanyaan atau masukan, silakan hubungi [email@domain.com](mailto:email@domain.com).
-
-Silakan sesuaikan bagian URL repository, kredensial ImageKit.io, connection string MongoDB, dan kontak sesuai kebutuhan proyek Anda.
-
-Proyek ini adalah aplikasi web yang dibangun dengan Next.js dan TypeScript. Proyek ini terintegrasi dengan ImageKit.io untuk manajemen serta optimasi gambar, dan menggunakan MongoDB sebagai database untuk menyimpan data.
-
-## Fitur
-
-- **Next.js & TypeScript**: Pengembangan front-end dan back-end dengan Next.js serta pemanfaatan TypeScript untuk pengembangan yang lebih terstruktur dan aman.
-- **Integrasi ImageKit.io**: Optimasi dan transformasi gambar secara otomatis, serta mendukung upload gambar melalui API.
-- **MongoDB**: Database NoSQL yang scalable dan fleksibel untuk menyimpan data aplikasi.
-- **API Routes**: Endpoint API untuk menangani upload gambar, pengambilan data, dan operasi CRUD lainnya.
-
-<!-- ### Prasyarat
-
-- [Node.js](https://nodejs.org) (disarankan versi LTS)
-- NPM atau Yarn
-- Akun di [ImageKit.io](https://imagekit.io)
-- Akses ke database MongoDB (lokal atau cloud) -->
-
-```
-
-```
