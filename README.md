@@ -52,8 +52,6 @@ Proyek ini adalah aplikasi web yang dibangun dengan Next.js dan TypeScript. Proy
    cd nama-proyek
    ```
 
-````
-
 2. **Install Dependensi**
 
    ```bash
@@ -143,8 +141,6 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 Untuk pertanyaan atau masukan, silakan hubungi [email@domain.com](mailto:email@domain.com).
 
-```
-
 Silakan sesuaikan bagian URL repository, kredensial ImageKit.io, connection string MongoDB, dan kontak sesuai kebutuhan proyek Anda.
 
 Proyek ini adalah aplikasi web yang dibangun dengan Next.js dan TypeScript. Proyek ini terintegrasi dengan ImageKit.io untuk manajemen serta optimasi gambar, dan menggunakan MongoDB sebagai database untuk menyimpan data.
@@ -162,5 +158,7 @@ Proyek ini adalah aplikasi web yang dibangun dengan Next.js dan TypeScript. Proy
 - NPM atau Yarn
 - Akun di [ImageKit.io](https://imagekit.io)
 - Akses ke database MongoDB (lokal atau cloud) -->
+
 ```
-````
+
+```
