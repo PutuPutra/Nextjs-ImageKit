@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
   await connect();
   try {
     const data = await req.json();
-    console.log("Received product data:", data);
+    // console.log("Received product data:", data);
 
     if (!data.name || !data.price || !data.category) {
       return NextResponse.json(

@@ -76,10 +76,8 @@
 // seed();
 // scripts/seed.ts
 import mongoose from "mongoose";
-import User from "./User"; // Pastikan path sesuai dengan struktur project Anda
-import Product from "./Products";
-// import User from "../models/User";
-// import Product from "../models/Products";
+import User from "./User"; // Ensure this path is correct
+import Product from "./Products"; // Ensure this path is correct
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/nama_database_anda";
 
@@ -123,7 +121,7 @@ const seed = async () => {
         productsData.push({
           name: `Produk ${productIndex}`,
           price: productIndex * 10, // Contoh harga
-          category: productIndex % 2 === 0 ? "Kategori A" : "Kategori B",
+          category: productIndex % 2 === 0 ? "Baju" : "Celana",
           // Menggunakan Unsplash untuk gambar secara online dengan parameter unik
           image: `https://source.unsplash.com/random/150x150?sig=${productIndex}`,
           userId: user._id,
