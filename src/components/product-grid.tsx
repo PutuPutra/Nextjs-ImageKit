@@ -77,9 +77,9 @@ export default function ProductGrid() {
                 </div>
                 <div className="flex items-center space-x-2">
                   {/* {product.price && ( */}
-                  <span className="text-sm text-gray-500 dark:text-gray-400 line-through">
+                  {/* <span className="text-sm text-gray-500 dark:text-gray-400 line-through">
                     ${product.price}
-                  </span>
+                  </span> */}
                   {/* )} */}
                   <span className="font-bold">${product.price}</span>
                 </div>
