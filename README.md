@@ -23,9 +23,6 @@ Silahkan kerjakan task ini dari project aplikasi kamu:
 - [ ] Halaman Menambah Product
 - [ ] Pastikan Data Gambar Tersimpan di ImageKIT -->
 
-Berikut adalah file `README.md` yang sudah diperbarui dengan penambahan link ke website ImageKit.io:
-
-````markdown
 # Next.js TypeScript dengan Integrasi ImageKit.io & MongoDB
 
 Proyek ini adalah aplikasi web yang dibangun dengan Next.js dan TypeScript. Proyek ini terintegrasi dengan [ImageKit.io](https://imagekit.io) untuk manajemen serta optimasi gambar, dan menggunakan MongoDB sebagai database untuk menyimpan data.
@@ -54,6 +51,7 @@ Proyek ini adalah aplikasi web yang dibangun dengan Next.js dan TypeScript. Proy
    git clone https://github.com/PutuPutra/Nextjs-ImageKit.git
    cd nama-proyek
    ```
+
 ````
 
 2. **Install Dependensi**
@@ -165,3 +163,4 @@ Proyek ini adalah aplikasi web yang dibangun dengan Next.js dan TypeScript. Proy
 - Akun di [ImageKit.io](https://imagekit.io)
 - Akses ke database MongoDB (lokal atau cloud) -->
 ```
+````
