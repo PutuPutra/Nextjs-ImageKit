@@ -120,8 +120,8 @@ MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/nama_databa
 
 Proyek ini siap untuk dideploy ke platform seperti Vercel atau Heroku.
 
-- **Vercel:** Next.js terintegrasi secara native dengan Vercel. Pastikan untuk menambahkan variabel lingkungan melalui dashboard Vercel.
-- **Heroku:** Gunakan buildpack Node.js dan atur variabel lingkungan melalui dashboard Heroku.
+- **Vercel:** Next.js terintegrasi secara native dengan Vercel. Pastikan untuk menambahkan environment variables melalui dashboard Vercel.
+- **Heroku:** Gunakan buildpack Node.js dan atur environment variables melalui dashboard Heroku.
 
 ## Kontribusi
 
