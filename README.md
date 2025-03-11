@@ -1,4 +1,4 @@
-# NextJS-Challenge (Next.js Project)
+<!-- # NextJS-Challenge (Next.js Project)
 
 ## NDL
 
@@ -21,7 +21,7 @@ Silahkan kerjakan task ini dari project aplikasi kamu:
   - [ ] Komponen Detail info Ecommerce
   - [ ] Komponen Featured Product (50-10 product)
 - [ ] Halaman Menambah Product
-- [ ] Pastikan Data Gambar Tersimpan di ImageKIT
+- [ ] Pastikan Data Gambar Tersimpan di ImageKIT -->
 
 # Next.js TypeScript dengan Integrasi ImageKit.io & MongoDB
 
