@@ -3,9 +3,9 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import MainLayout from "@/components/MainLayout";
-import Hero from "@/components/hero";
-import ProductGrid from "../components/product-grid";
-import Articles from "@/components/articles";
+// import Hero from "@/components/hero";
+import ProductGrid from "../../components/product-grid";
+// import Articles from "@/components/articles";
 
 export default function Home() {
   const router = useRouter();
@@ -24,9 +24,9 @@ export default function Home() {
 
   return (
     <MainLayout>
-      <Hero />
+      {/* <Hero /> */}
       <ProductGrid />
-      <Articles />
+      {/* <Articles /> */}
     </MainLayout>
   );
 }
