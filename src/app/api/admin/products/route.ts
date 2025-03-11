@@ -6,9 +6,9 @@ import ImageKit from "imagekit";
 import { authMiddleware } from "@/middleware/authMiddleware";
 
 const imagekit = new ImageKit({
-  publicKey: "public_ACTu4ELdiZhmfZXvuEYpXiOb+X0=",
-  privateKey: "private_+OmPUPumeAHvvq5U2X0heg0Zz40=",
-  urlEndpoint: "https://ik.imagekit.io/persada/",
+  publicKey: process.env.IMAGEKIT_PUBLIC_KEY!,
+  privateKey: process.env.IMAGEKIT_PRIVATE_KEY!,
+  urlEndpoint: process.env.IMAGEKIT_ID!,
 });
 
 interface AuthenticatedRequest extends NextRequest {
