@@ -55,9 +55,9 @@ Proyek ini adalah aplikasi web yang dibangun dengan Next.js dan TypeScript. Proy
 2. **Install Dependensi**
 
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    # atau jika menggunakan yarn:
-   yarn install
+   yarn install --legacy-peer-deps
    ```
 
 3. **Konfigurasi Variabel Lingkungan**
