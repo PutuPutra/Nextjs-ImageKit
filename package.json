@@ -48,7 +48,6 @@
     "@tailwindcss/postcss": "^4",
     "@types/express": "^5.0.0",
     "@types/jsonwebtoken": "^9.0.9",
-    "@tnpx ts-node /src/models/seed.tspes/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-table": "^7.7.20",
     "eslint": "^9",
